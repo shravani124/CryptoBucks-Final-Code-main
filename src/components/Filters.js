@@ -8,7 +8,6 @@ import { CryptoContext } from "./../context/CryptoContext";
 const Filters = () => {
   let { setCurrency, setSortBy, resetFunction } = useContext(CryptoContext);
   const currencyRef = useRef(null);
-
   const handleCurrencySubmit = (e) => {
     e.preventDefault();
     let val = currencyRef.current.value;
