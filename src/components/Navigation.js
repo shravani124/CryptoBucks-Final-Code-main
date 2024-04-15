@@ -57,7 +57,7 @@ ${
         saved
       </NavLink>
 
-      <NavLink
+      {/* <NavLink
         to="/login"
         className={({ isActive }) => {
           return `w-full text-base text-center font-nunito m-2.5
@@ -87,7 +87,7 @@ ${
         }}
       >
         Sign-up
-      </NavLink>
+      </NavLink> */}
     </nav>
   );
 };

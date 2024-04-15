@@ -69,12 +69,6 @@ const Filters = () => {
           >
             <option value="market_cap_desc">market cap desc</option>
             <option value="market_cap_asc">market cap asc</option>
-            <option value="volume_desc">volume desc</option>
-            <option value="volume_asc">volume asc</option>
-            <option value="id_desc">id desc</option>
-            <option value="id_asc">id asc</option>
-            <option value="gecko_desc">gecko desc</option>
-            <option value="gecko_asc">gecko asc</option>
           </select>
           <img
             src={selectIcon}
